@@ -1,0 +1,20 @@
+# Default add
+python calc.py 5 3
+> Result: 8.0
+
+# Subtraction
+python calc.py 10 4 --opp sub
+> Result: 6.0
+
+# Division with rounding
+python calc.py 10 3 --opp div --round 2
+> Result: 3.33
+
+# Multiplication with verbose
+python calc.py 4 5 --opp mul --verbose
+> Multiplying 4.0 and 5.0
+> Result: 20.0
+
+# Division by zero
+python calc.py 9 0 --opp div
+> Error: You can't divide by zero.
