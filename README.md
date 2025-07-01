@@ -1,25 +1,26 @@
 # 🛠️ argparse-cli-tools
 
 A collection of command-line utilities built using Python's `argparse` module.  
-Each subfolder (day1, day2, etc.) contains a focused CLI tool that demonstrates real-world usage of Python CLI scripting.
+Each subfolder (`day1/`, `day2/`, etc.) contains a focused CLI tool that demonstrates real-world usage of Python CLI scripting.
 
 ---
 
 ## 📁 Folder Structure
 
-
 | Folder | Description |
 |--------|-------------|
 | `day1/` | CLI calculator with `--opp`, `--verbose`, and `--round` flags |
+| `day2/` | Todo list manager with `add`, `list`, and `done` commands |
 
 ---
 
 ## ✅ Features
 
-- Positional and optional arguments
-- Cleanly separated tools by day
-- Git-tracked and modular
-- Designed for beginner-to-intermediate Python CLI practice
+- Positional and optional argument parsing
+- Subcommands using `argparse` subparsers
+- Clean modular folder structure (per day/tool)
+- Git-tracked development history
+- Built for beginner-to-intermediate CLI scripting proficiency
 
 ---
 
