@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Learn argparse",
+    "done": true
+  },
+  {
+    "task": "Submit assignment",
+    "done": true
+  },
+  {
+    "task": "Do dishes",
+    "done": false
+  }
+]
