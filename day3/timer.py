@@ -23,6 +23,7 @@ def main():
     for remaining in range(total_seconds,0 , -1):
         mins , secs = divmod(remaining , 60)
         time_r = f"  Time Left: {mins:02d}:{secs:02d}"
+        #to print on the same line overwriting
         print("\r",time_r,end='', flush = True)
         time.sleep(1)
     if args.verbose:
