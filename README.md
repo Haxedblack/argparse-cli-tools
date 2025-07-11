@@ -13,18 +13,19 @@ Each subfolder (`day1/`, `day2/`, etc.) contains a focused CLI tool demonstratin
 | `day2/` | To-Do list manager with `add`, `list`, and `done` commands |
 | `day3/` | Countdown timer with mutually exclusive `--minutes` / `--seconds`, `--verbose`, and `--message` options |
 | `day4/` | Log file parser with filtering by `--date` and `--level`, plus `--count` and `--summary` options |
+| `day5/` | CSV column analyzer with `--columns`, `--stats`, and row preview using `--head` |
 
 ---
 
 ## ✅ Features
 
-- Positional and optional argument parsing
-- Mutually exclusive groups (e.g., `--minutes` vs `--seconds`)
-- Subcommands via `argparse` subparsers
-- Clean modular folder structure (per day/tool)
-- Git-tracked daily development history
-- Real-time CLI behavior using `time.sleep()` and `colorama` styling
-- Beginner-friendly structure for learning and experimentation
+- 📌 Positional and optional argument parsing
+- 🚫 Mutually exclusive groups (e.g., `--minutes` vs `--seconds`)
+- 📂 Subcommands via `argparse` subparsers
+- 🧱 Modular folder structure per day/tool
+- 🧵 Git-tracked daily progress
+- 🎨 Color-coded CLI output with `colorama`
+- 🛠️ Beginner-friendly layout for learning and experimentation
 
 ---
 
@@ -81,6 +82,15 @@ Other examples:
 ```bash
 python logparse.py --file sample.log --level WARN
 python logparse.py --file sample.log --date 2023-07-01 --summary
+```
+
+---
+
+### 📌 Day 5 – CSV Column Analyzer
+
+```bash
+cd day5
+python csv_analyzer.py --file ../data/sample.csv --columns price,volume --stats mean,std --head 3
 ```
 
 ---
