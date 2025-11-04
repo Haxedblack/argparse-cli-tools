@@ -25,7 +25,7 @@ def organize_directory(path: Path):
     for item in path.iterdir():
         if item.is_file():
             # Don't move the script itself!
-            if item.name == "organizer.py":
+            if item.name == "File Organizer Tool.py":
                 continue
 
             file_extension = item.suffix.lower()
