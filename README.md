@@ -1,19 +1,21 @@
 ## 🛠️ argparse-cli-tools
 
-A collection of command-line utilities built using Python's `argparse` module.  
+A collection of command-line utilities built using Python's `argparse` module.
 Each subfolder (`day1/`, `day2/`, etc.) contains a focused CLI tool demonstrating real-world usage of Python CLI scripting.
 
 ---
 
 ## 📁 Folder Structure
 
-| Folder  | Description |
-|---------|-------------|
+| Folder | Description |
+|---|---|
 | `day1/` | CLI calculator with `--opp`, `--verbose`, and `--round` flags |
 | `day2/` | To-Do list manager with `add`, `list`, and `done` commands |
 | `day3/` | Countdown timer with mutually exclusive `--minutes` / `--seconds`, `--verbose`, and `--message` options |
 | `day4/` | Log file parser with filtering by `--date` and `--level`, plus `--count` and `--summary` options |
 | `day5/` | CSV column analyzer with `--columns`, `--stats`, and row preview using `--head` |
+| `day6/` | File organizer script using `pathlib` to sort files by extension |
+| `day7/` | Stock data fetcher using `requests` to pull data from a live API |
 
 ---
 
@@ -26,6 +28,8 @@ Each subfolder (`day1/`, `day2/`, etc.) contains a focused CLI tool demonstratin
 - 🧵 Git-tracked daily progress
 - 🎨 Color-coded CLI output with `colorama`
 - 🛠️ Beginner-friendly layout for learning and experimentation
+- 🌐 API interaction with `requests` and JSON parsing
+- 🗃️ Filesystem manipulation with `pathlib`
 
 ---
 
@@ -34,9 +38,9 @@ Each subfolder (`day1/`, `day2/`, etc.) contains a focused CLI tool demonstratin
 Clone the repo:
 
 ```bash
-git clone https://github.com/Haxedblack/argparse-cli-tools.git
+git clone [https://github.com/Haxedblack/argparse-cli-tools.git](https://github.com/Haxedblack/argparse-cli-tools.git)
 cd argparse-cli-tools
-```
+
 
 Run individual tools:
 
