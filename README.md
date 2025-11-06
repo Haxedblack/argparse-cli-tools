@@ -96,7 +96,20 @@ python logparse.py --file sample.log --date 2023-07-01 --summary
 cd day5
 python csv_analyzer.py --file ../data/sample.csv --columns price,volume --stats mean,std --head 3
 ```
-
+### 📌 Day 6 – File Organizer
+```bash
+cd day6
+# Create some dummy files first: touch file1.txt report.pdf image.png
+python organizer.py --path .
+```
+### 📌 Day 7 – Stock Fetcher
+```bash
+cd day7
+# Set your API key first (see day7/README.md)
+export ALPHA_VANTAGE_KEY="YOUR_API_KEY"
+# Run the tool
+python stock.py AAPL --info price
+```
 ---
 
 ## 👨‍💻 Author
